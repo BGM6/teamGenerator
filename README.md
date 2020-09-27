@@ -1,6 +1,8 @@
     # Team Generator for Github 
     This application makes it easy to display your teams information on a website.
     
+    URL: https://bgm6.github.io/teamGenerator/
+    
 * [Installation](#Installation)
     
 * [License](#License)
