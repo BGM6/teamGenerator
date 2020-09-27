@@ -94,7 +94,7 @@ function secondaryEmployeeData() {
         if (employeeAnswers.employeeRole === "Intern") {
             const employee = new Intern(employeeAnswers.employeeName, employeeAnswers.employeeId, employeeAnswers.employeeEmail, employeeAnswers.school);
             teamMembers.push(employee);
-        } else if (answers.employeeRole === "Engineer") {
+        } else if (employeeAnswers.employeeRole === "Engineer") {
             teamMembers.push(new Engineer(employeeAnswers.employeeName, employeeAnswers.employeeId, employeeAnswers.employeeEmail, EeployeeAnswers.github));
         }
         if (employeeAnswers.newEmployee === true) {
